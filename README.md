@@ -23,6 +23,9 @@ Twitter社は無慈悲にも事前通告なしで仕様変更をすることが�
 - @gaogao_9
 
 
+## Related project
+
+[twitter/twemoji](https://github.com/twitter/twemoji)
 
 ## LICENSE
 
