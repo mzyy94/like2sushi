@@ -56,13 +56,13 @@ https://github.com/syaro/like2sushi-for-chrome-extension
     -webkit-transform: translateZ(0px);
     transform: translateZ(0px);
     top: -26px;
+    pointer-events: none;
 }
 
 .HeartAnimation:hover:before, .HeartAnimation:hover:after {
     transition: opacity .1s ease;
     opacity: .95;
-    -ms-filter: "alpha(opacity=95)"
-;
+    -ms-filter: "alpha(opacity=95)";
 }
 
 .HeartAnimation:after {
