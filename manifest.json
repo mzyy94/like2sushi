@@ -1,0 +1,14 @@
+{
+  "name": "like2sushi for chrome extension",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "change the love button of Twitter",
+  "web_accessible_resources": ["style.css"],
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "css": ["extension.css"]
+    }
+  ],
+  "icons": { "128": "icon.png" }
+}
