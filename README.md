@@ -1,2 +1,2 @@
 # like2sushi
-ついたーの:fav:が:like:に変えられてしまったので:sushi:に戻すやつ
+ついたーのFav:start:がLike:heart:に変えられてしまったのでSushi:sushi:に戻すやつ
