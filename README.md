@@ -40,6 +40,7 @@ Chromeのみ開けます (chrome://extensions/)
 
 - @3qgt
 - @gaogao_9
+- @printf_moriken
 
 
 ## Related project
