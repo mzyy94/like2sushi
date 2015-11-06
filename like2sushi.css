@@ -103,7 +103,7 @@ https://github.com/syaro/like2sushi-for-chrome-extension
     padding: 0px !important;
 }
 
-/* Keyboard shortcut Sushi action */
+/* Keyboard shortcut Sushi substitution */
 #keyboard-shortcut-menu table:first-of-type tr:nth-of-type(2) td:nth-of-type(2){
     visibility: hidden;
     position: relative;
