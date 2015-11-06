@@ -124,3 +124,19 @@ https://github.com/syaro/like2sushi-for-chrome-extension
     position: absolute;
     left: 8px;
 }
+
+/* favorited popup Sushi substitution */
+[data-activity-popup-title~="いいね"] {
+    visibility: hidden;
+    position: relative;
+}
+[data-activity-popup-title~="いいね"] * {
+    visibility: visible;
+}
+[data-activity-popup-title~="いいね"]:after {
+    visibility: visible;
+    content: "すし";
+    position: absolute;
+    top: 24px;
+    left: 0;
+}
