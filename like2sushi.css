@@ -104,21 +104,21 @@ https://github.com/syaro/like2sushi-for-chrome-extension
 }
 
 /* Keyboard shortcut Sushi substitution */
-#keyboard-shortcut-menu table:first-of-type tr:nth-of-type(2) td:nth-of-type(2){
+#keyboard-shortcut-menu table:first-of-type tr:nth-of-type(2) td:nth-of-type(2) {
     visibility: hidden;
     position: relative;
 }
-#keyboard-shortcut-menu table:first-of-type tr:nth-of-type(2) td:nth-of-type(2):after{
+#keyboard-shortcut-menu table:first-of-type tr:nth-of-type(2) td:nth-of-type(2):after {
     visibility: visible;
     content: "すし";
     position: absolute;
     left: 8px;
 }
-#keyboard-shortcut-menu table:last-of-type tr:nth-of-type(5) td:nth-of-type(2){
+#keyboard-shortcut-menu table:last-of-type tr:nth-of-type(5) td:nth-of-type(2) {
     visibility: hidden;
     position: relative;
 }
-#keyboard-shortcut-menu table:last-of-type tr:nth-of-type(5) td:nth-of-type(2):after{
+#keyboard-shortcut-menu table:last-of-type tr:nth-of-type(5) td:nth-of-type(2):after {
     visibility: visible;
     content: "すし";
     position: absolute;
