@@ -103,24 +103,40 @@ https://github.com/syaro/like2sushi-for-chrome-extension
     padding: 0px !important;
 }
 
-/* Keyboard shortcut Sushi action */
-#keyboard-shortcut-menu table:first-of-type tr:nth-of-type(2) td:nth-of-type(2){
+/* Keyboard shortcut Sushi substitution */
+#keyboard-shortcut-menu table:first-of-type tr:nth-of-type(2) td:nth-of-type(2) {
     visibility: hidden;
     position: relative;
 }
-#keyboard-shortcut-menu table:first-of-type tr:nth-of-type(2) td:nth-of-type(2):after{
+#keyboard-shortcut-menu table:first-of-type tr:nth-of-type(2) td:nth-of-type(2):after {
     visibility: visible;
     content: "すし";
     position: absolute;
     left: 8px;
 }
-#keyboard-shortcut-menu table:last-of-type tr:nth-of-type(5) td:nth-of-type(2){
+#keyboard-shortcut-menu table:last-of-type tr:nth-of-type(5) td:nth-of-type(2) {
     visibility: hidden;
     position: relative;
 }
-#keyboard-shortcut-menu table:last-of-type tr:nth-of-type(5) td:nth-of-type(2):after{
+#keyboard-shortcut-menu table:last-of-type tr:nth-of-type(5) td:nth-of-type(2):after {
     visibility: visible;
     content: "すし";
     position: absolute;
     left: 8px;
+}
+
+/* favorited popup Sushi substitution */
+[data-activity-popup-title~="いいね"] {
+    visibility: hidden;
+    position: relative;
+}
+[data-activity-popup-title~="いいね"] * {
+    visibility: visible;
+}
+[data-activity-popup-title~="いいね"]:after {
+    visibility: visible;
+    content: "すし";
+    position: absolute;
+    top: 24px;
+    left: 0;
 }
