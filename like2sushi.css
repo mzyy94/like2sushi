@@ -21,13 +21,13 @@ https://github.com/syaro/like2sushi-for-chrome-extension
 }
 
 /* "いいね" - "すし" substitution */
-[data-original-title="いいね"] .HeartAnimation:before {
+[data-original-title="いいね"] .HeartAnimation:before, [data-original-title="お気に入りに登録"] .HeartAnimation:before {
     content: "すし";
     width: 40px;
     left: -6px;
 }
 
-[data-original-title="「いいね」を取り消す"] .HeartAnimation:before {
+[data-original-title="「いいね」を取り消す"] .HeartAnimation:before, [data-original-title="お気に入り削除"] .HeartAnimation:before {
     content: "「すし」を取り消す";
     width: 140px;
     left: -55px;
