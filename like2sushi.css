@@ -11,6 +11,10 @@ https://github.com/syaro/like2sushi-for-chrome-extension
     background-position: left !important;
 }
 
+.HeartAnimationContainer {
+    overflow: visible !important;
+}
+
 .ProfileTweet-action--favorite .ProfileTweet-actionButton:hover .HeartAnimation, .ProfileTweet-action--favorite .ProfileTweet-actionButton:focus .HeartAnimation, .favorited .ProfileTweet-action--favorite .HeartAnimation {
     background-position: right !important;
 }
