@@ -170,3 +170,11 @@ https://github.com/syaro/like2sushi-for-chrome-extension
     top: 24px;
     left: 0;
 }
+
+.Icon--heart.u-block {
+    width: 52px !important;
+    height: 38px !important;
+    top: 0px !important;
+    left: 0px !important;
+    padding: 0px !important;
+}
